@@ -12,9 +12,7 @@ Sigue las instrucciones para poder incluir tu código para revisión:
   - java
   	- courses
 	  - certificatic
-	    - javaOCA_Jun2020
-	      - sourceProject
-	        - JavaOCP_8_gen_2020
+	     - JavaOCP_8_gen_2020
 - En esta ubicación es donde ejecutaremos los comandos git
 - Abre el proyecto en Netbeans con la opción de abrir proyecto
 - Localiza el paquete que te corresponde: Para cada usuario fue generado un paquete con la correspondencia a su correo electrónico. A continuación indico los usuarios creados:
