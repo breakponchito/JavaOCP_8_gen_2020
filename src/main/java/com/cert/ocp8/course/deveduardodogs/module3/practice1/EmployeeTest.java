@@ -1,6 +1,11 @@
 package com.cert.ocp8.course.deveduardodogs.module3.practice1;
 
-import com.cert.ocp8.course.deveduardodogs.module3.practice1.domain.*;
+
+import com.cert.ocp8.course.deveduardodogs.module3.practice1.domain.Admin;
+import com.cert.ocp8.course.deveduardodogs.module3.practice1.domain.Employee;
+import com.cert.ocp8.course.deveduardodogs.module3.practice1.domain.Engineer;
+import com.cert.ocp8.course.deveduardodogs.module3.practice1.domain.Manager;
+import com.cert.ocp8.course.deveduardodogs.module3.practice1.domain.Director;
 
 public class EmployeeTest {
 

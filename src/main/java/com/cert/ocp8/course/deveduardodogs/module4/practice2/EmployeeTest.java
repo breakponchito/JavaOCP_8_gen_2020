@@ -29,6 +29,7 @@ public class EmployeeTest {
         System.out.println("Employee id:         " + emp.getEmpId());
         System.out.println("Employee name:       " + emp.getName());
         System.out.println("Employee Soc Sec #:  " + emp.getSsn());
-        System.out.println("Employee salary:     " + NumberFormat.getCurrencyInstance().format((double) emp.getSalary()));
+        System.out.println("Employee salary:     " + NumberFormat.getCurrencyInstance().
+                format((double) emp.getSalary()));
     }
 }

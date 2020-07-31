@@ -5,8 +5,6 @@
  */
 package com.cert.ocp8.course.deveduardodogs;
 
-import com.cert.ocp8.course.devdamunguia95.*;
-
 /**
  *
  * @author alfonso.valdez
