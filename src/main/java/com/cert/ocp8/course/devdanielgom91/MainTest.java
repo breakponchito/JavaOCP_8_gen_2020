@@ -5,7 +5,6 @@
  */
 package com.cert.ocp8.course.devdanielgom91;
 
-import com.cert.ocp8.course.devdamunguia95.*;
 
 /**
  *
