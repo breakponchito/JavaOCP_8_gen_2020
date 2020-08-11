@@ -10,11 +10,6 @@ public class SavingsAccount extends Account{
         super(balance);
     }
 
-    
-    
- 
-    
-
     @Override
     public boolean withdraw(double amount) {
         if(amount <= balance ) {
@@ -25,13 +20,11 @@ public class SavingsAccount extends Account{
         }
     }
 
-    
      @Override
-     public void  deposit(double amount) {
+     public void deposit(double amount) {
        balance += amount;
-       balance +=balance * rateofinterest;
-       
-        }
+       balance += balance * rateofinterest;
+    }
     
     @Override
     public String getDescription() {

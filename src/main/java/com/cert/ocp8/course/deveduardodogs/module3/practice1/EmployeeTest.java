@@ -22,7 +22,6 @@ public class EmployeeTest {
         Employee dir = new Director(12, "Susan Wheeler", "099-45-2340",
                 120_567.36, "Global Marketing", 1_000_000.00);
 
-
         eng.printEmployee();
         adm.printEmployee();
         mgr.printEmployee();
@@ -31,7 +30,5 @@ public class EmployeeTest {
         mgr.setName("Barbara Johnson-Smythe");
         mgr.raiseSalary(10_000.0);
         mgr.printEmployee();
-
     }
-
 }

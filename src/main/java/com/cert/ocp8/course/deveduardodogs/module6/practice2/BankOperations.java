@@ -9,7 +9,6 @@ public interface BankOperations {
     public Customer getCustomer(int customerIndex);
 
     public default void generateReport() {
-
         // Print report header
         System.out.println("\t\t\tCUSTOMERS REPORT");
         System.out.println("\t\t\t================");
@@ -17,7 +16,6 @@ public interface BankOperations {
         // For each customer...
         for (int custIndex = 0; custIndex < this.getNumOfCustomers(); custIndex++) {
             Customer customer = this.getCustomer(custIndex);
-
             // Print the customer's name
             System.out.println();
             System.out.println("Customer: "
@@ -29,7 +27,6 @@ public interface BankOperations {
             // For each account for this customer...
             for (int acctIndex = 0; acctIndex< customer.getNumOfAccounts(); acctIndex++) {
                 AccountOperations account = customer.getAccount(acctIndex);
-
                 // Print the current balance of the account
                 System.out.println("    " + account);
             }

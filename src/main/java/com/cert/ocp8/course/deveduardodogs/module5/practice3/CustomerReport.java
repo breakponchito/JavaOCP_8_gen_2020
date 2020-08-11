@@ -13,7 +13,6 @@ public class CustomerReport {
     }
 
     public void generateReport() {
-
         // Print report header
         System.out.println("\t\t\tCUSTOMERS REPORT");
         System.out.println("\t\t\t================");
@@ -33,7 +32,6 @@ public class CustomerReport {
             // For each account for this customer...
             for (int acctIndex = 0; acctIndex< customer.getNumOfAccounts(); acctIndex++) {
                 Account account = customer.getAccount(acctIndex);
-
                 // Print the current balance of the account
                 System.out.println("    " + account);
             }

@@ -6,8 +6,6 @@ public class Employee {
     private String name;
     private String ssn;
     private double salary;
-    
-    
 
     public Employee(int empId, String name, String ssn, double salary) {
         this.empId = empId;
